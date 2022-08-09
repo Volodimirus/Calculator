@@ -1,0 +1,31 @@
+.calculator {
+  padding: 10px;
+}
+
+.top-section {
+  text-align: right;
+  /* padding-right: 50px; */
+  padding-bottom: 30px;
+}
+
+.calculator--result {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  width: 25%;
+  min-height: 50px;
+  padding: 5px;
+  transition: background-color .3s;
+  font-size: 1.2em;
+  box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, .5);
+}
+
+.button:hover {
+  background-color: #2b2a2a;
+}
